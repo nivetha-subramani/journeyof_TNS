@@ -1,5 +1,7 @@
 package com.S.Nivetha.assignment.utilities;
 
+
+// to get other package items we need to import that packages......
 import com.S.Nivetha.assignment.employees.*;
 
 
@@ -8,7 +10,7 @@ public class Assignmentmain {
 	public static void main(String[] args) {
 		
 		
-		//create instance for developer
+		//create instance for developer.........
 		developer d1=new developer();
 		developer d2=new developer();
 		
@@ -19,7 +21,7 @@ public class Assignmentmain {
 		d2.setDepartment("backend");
 		d2.setLanguage("Javascript");
 		
-		//create instance for manager
+		//create instance for manager.........
 		
 		manager m1 = new manager();
 		manager m2 = new manager();
@@ -29,7 +31,7 @@ public class Assignmentmain {
 		
 		m2.setExperience(4+"years");
 		m2.setCoordination("perfect team coordination");
-		
+		// print developer and manager specifications.........
 		System.out.println("developer dept:"+d1.getDepartment()+"  |  Skill:"+d1.getLanguage());
 		System.out.println("developer dept:"+d2.getDepartment()+"  |  Skill:"+d2.getLanguage());
 		System.out.println("manager experience:"+m1.getExperience()+"  |  team management:"+m1.getCoordination());
